@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Next.js client for the blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "eslint-config-next": "^14.0.4",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^14.0.4",
+    "ra-data-json-server": "^4.16.3",
+    "react": "^18.2.0",
+    "react-admin": "^4.16.4",
+    "react-dom": "^18.2.0"
+  }
+}

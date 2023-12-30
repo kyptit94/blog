@@ -3,15 +3,16 @@ const Post = require('../models/post');
 
 // Define your controller functions
 
-const getAllPosts = async (req, res) => {
+const getAllPosts = async () => {
     // Logic to fetch all posts from the database
     // Return the posts as a response
     return Post.find({})
 };
 
-const getPostById = (req, res) => {
+const getPostById = (id) => {
     // Logic to fetch a post by its ID from the database
     // Return the post as a response
+    return Post.findOne({_id: id})
 };
 
 const createPost = async (postData) => {

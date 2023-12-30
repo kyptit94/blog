@@ -12,10 +12,11 @@ router.get('/', async (req, res) => {
 });
 
 // GET /posts/:id
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
     const postId = req.params.id;
+    let data = await postController.getPostById(postId)
     // Logic to fetch a specific post by ID
-    res.send(`Get post with ID ${postId}`);
+    res.send(data);
 });
 
 // POST /posts

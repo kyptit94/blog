@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"admin.js -> ../components/admin/index\":{\"id\":\"admin.js -> ../components/admin/index\",\"files\":[\"static/chunks/components_admin_index_js.js\"]}}"

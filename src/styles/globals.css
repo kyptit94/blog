@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-nav li, .header-nav a {
+    display: inline-block !important;
+}
+
+

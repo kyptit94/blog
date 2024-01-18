@@ -7,16 +7,12 @@ export default function Footer() {
             <div className="footer-data">
                 <div className={"footer-logo " + dc.className}>
                     <Link className={dc.className} href="/">
-                        Web Bé Bơ
+                        Kevin Blog
                     </Link>
                 </div>
-                <p className="footer-description">Website chia sẻ kiến thức cho sức khỏe của mẹ và bé</p>
+                <p className="footer-description">Share programming knowledge</p>
             </div>
             <div className="footer-nav">
-
-
-
-
                 <div className="footer-nav-column">
                     <small>About</small>
                     <ul>
@@ -50,7 +46,7 @@ export default function Footer() {
             </div>
         </div>
         <div className="footer-copyright">
-            <a href="/">WebBeBo</a> © 2024.
+            <a href="/">Kevin Blog</a> © 2024.
             All Right Reserved.
         </div>
     </footer>)

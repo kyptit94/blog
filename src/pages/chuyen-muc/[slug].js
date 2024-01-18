@@ -3,7 +3,6 @@ import Item from "@/components/post/item"
 import Head from 'next/head';
 
 export default function Home({ posts, category }) {
-    console.log(category.name)
     return (
         <main className="loop-section">
             <Head>

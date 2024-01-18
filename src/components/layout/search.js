@@ -42,12 +42,12 @@ export default function Search() {
             </span>
             <div id="search-content" className="search-content">
                 <form className="search-form" onSubmit={() => false}>
-                    <input onChange={(e) => { getPost(e.target.value) }} id="search-input" type="text" placeholder="Nhập từ khóa của bạn" />
+                    <input onChange={(e) => { getPost(e.target.value) }} id="search-input" type="text" placeholder="Enter your keyword" />
                     <div className="search-meta">
-                        <span id="search-info" className="">Nhập ít nhất 3 kí tự</span>
+                        <span id="search-info" className="">Enter at least 3 characters</span>
                         <span id="search-counter" className="is-hide">
                             <span id="search-counter-results">1</span>
-                            Kết quả tìm kiếm
+                            Search results
                         </span>
                     </div>
                 </form>
